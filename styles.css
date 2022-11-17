@@ -1,0 +1,118 @@
+:root {
+    --background-color: #F6F6F6;
+    --primary-color: #1B3B48;
+    --white: #fff;
+    --grey: #E7E7E7;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+body {
+    background: var(--background-color);
+    --webkit-font-smoothing: antialiased;
+}
+
+body,
+input,
+textarea,
+button {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+}
+
+button {
+    cursor: pointer;
+}
+
+[disabled] {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.header {
+    background-color: var(--primary-color);
+}
+
+.header header {
+    padding: 1.75rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.header header h1 {
+    color: var(--white);
+}
+
+.content-image {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2.5rem;
+    margin-top: 2rem;
+}
+
+.footer {
+    background-color: var(--primary-color);
+    padding: 1.75rem 0 0 40rem;
+    margin-top: 15rem;
+    color: var(--white);
+    font-weight: 16rem;
+    font-size: 1.5rem;
+    height: 6rem;
+
+}
+
+.image-container{
+ border: 0.1rem solid var(--primary-color);
+ background-color: var(--primary-color);
+ padding: 1.0rem;
+ border-radius: 2rem;
+ 
+
+}
+
+.image-container img{
+    border: 0.1rem solid var(--primary-color);
+    background-color: var(--grey);
+    gap: 10rem;
+    padding: 1.0rem;
+    border-radius: 2rem;
+   }
+
+   .content-image {
+    display:flex;
+    gap: 5rem;
+    margin: 8rem 0 0 7rem;
+   
+   }
+   
+   .inputSet input {
+    padding: 0.5rem;
+    border-radius:0.3rem;
+   }
+
+   .inputSet button {
+    padding: 0.5rem;
+    border-radius:0.3rem;
+    color: var(--primary-color);
+    font-size: 1rem;
+    font-weight: 900;
+    cursor: pointer;
+    
+   }
+   
+
