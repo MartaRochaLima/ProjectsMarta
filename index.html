@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="figura-1.jpg">
+    
+    <title> &copy; Bored or Boredom  </title>
+</head>
+<style>
+:root{
+  --divhead: rgb(126, 156, 221);
+  --divbody: rgb(152, 240, 240);
+  --divhead2: white;
+
+
+}
+
+.divHead {
+
+    margin:0rem;
+    padding:2rem;
+    background-color: var(--divhead);
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap: wrap;
+    font-size: 0.9rem;
+  
+}
+
+
+.divInnerHead{
+
+    background-color:var(--divhead2);
+    font-size: 1rem;
+    width:30rem;
+    border-radius: 1rem;
+    padding: 2rem;
+    align-self: auto;
+    margin-right:2.5rem;
+    
+}
+.divHeadLogo{
+
+    padding-left: 2rem;
+}
+img{
+    
+    width: 13rem;
+    border-radius: 1rem;
+    
+}
+
+.userSearch{
+
+    font-size: 2.5rem;
+    padding-left:35rem;
+    margin-top: -15rem;
+}
+
+.btn-search {
+margin-left: 43rem;
+background-color: var(--divhead);
+border-radius:0.2rem;
+height: 2rem;
+padding: 1;
+}
+
+.btn-search:hover{
+
+background-color: var(--divbody);
+}
+
+#infoBox{
+
+    margin-left:35rem;
+
+}
+
+#infoFooter{
+    background-color: var(--divhead);
+    height:5rem;
+    margin-top: 5rem;
+   padding-top: 2rem;
+   padding-left: 4rem;
+   display: flex;
+   justify-content: space-between;
+    
+}
+
+.logoNetwork {
+
+    width:10rem;
+    padding-right:4.5rem;
+    border-radius: 3rem;
+}
+
+.ftInfo {
+
+font-size: 1.5rem;
+}
+
+.figura3{
+
+    margin-top: 5rem;
+    padding-left:1rem;
+}
+</style>
+<body>
+    <header class="head"> 
+        <div class="divHead">
+            <div class="divHeadLogo">
+                <h1 class="divBrand"> <img clas="figuraLogo" src="figura-1.jpg" alt=""> </h1>
+            </div>
+            <div class="divInnerHead">
+                <h1> Are u tired of being <u>bored</u>? </h1>
+                <h1> How about ending this <u>boredom</u>?</h1>
+            </div>
+        </div>
+    </header>
+
+<div id="divBody">
+<img src="figura-3.png" alt="" class="figura3">
+<h1 class=" userSearch"> What are you down for today? </h1>
+<button onclick="getActivities()" class="btn-search"> Click here to refresh activity! </button>
+</div>
+<div id="infoBox">
+</div>
+
+<footer id="pageFooter"> 
+    <div id="infoFooter">
+    </div>
+</footer>
+   <script src="script.js"></script> 
+</body>
+</html>
